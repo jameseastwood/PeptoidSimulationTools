@@ -1,0 +1,46 @@
+Remark line goes here
+MASS
+
+BOND
+C -n   356.20   1.379       same as  c- n, penalty score=  0.0
+c -N   356.20   1.379       same as  c- n, penalty score=  0.0
+
+ANGLE
+c -N -CT   65.300     120.690   same as c -n -c3, penalty score=  0.0
+c3-n -C    65.300     120.690   same as c -n -c3, penalty score=  0.0
+CX-N -c    65.300     120.690   same as c -n -c3, penalty score=  0.0
+n -C -CX   84.300     115.180   same as c3-c -n , penalty score=  0.0
+N -c -c3   84.300     115.180   same as c3-c -n , penalty score=  0.0
+n -C -O   113.800     123.050   same as n -c -o , penalty score=  0.0
+N -c -o   113.800     123.050   same as n -c -o , penalty score=  0.0
+n -C -N   112.400     113.560   same as n -c -n , penalty score=  0.0
+hn-n -C    48.700     117.550   same as c -n -hn, penalty score=  0.0
+H -N -c    48.700     117.550   same as c -n -hn, penalty score=  0.0
+C -N -C    65.600     127.080   same as c -n -c , penalty score=  0.0
+C -N -X    65.600     127.080   same as c -n -c , penalty score=  0.0
+
+DIHE
+o -c -N -CT   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+c3-c -N -CT   1    0.260       180.000          -2.000      same as c3-n -c -c3
+c3-c -N -CT   1    0.500         0.000           1.000      same as c3-n -c -c3, penalty score=  0.0
+c3-n -C -CX   1    0.260       180.000          -2.000      same as c3-n -c -c3
+c3-n -C -CX   1    0.500         0.000           1.000      same as c3-n -c -c3, penalty score=  0.0
+CX-N -c -c3   1    0.260       180.000          -2.000      same as c3-n -c -c3
+CX-C -c -c3   1    0.500         0.000           1.000      same as c3-n -c -c3, penalty score=  0.0
+c3-n -C -O    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+CX-N -c -o    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+c3-n -C -N    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+hn-n -C -CX   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+H -N -c -c3   4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+hn-n -C -O    1    2.500       180.000          -2.000      same as hn-n -c -o 
+hn-n -C -O    1    2.000         0.000           1.000      same as hn-n -c -o , penalty score=  0.0
+H -N -c -o    1    2.500       180.000          -2.000      same as hn-n -c -o 
+H -N -c -o    1    2.000         0.000           1.000      same as hn-n -c -o , penalty score=  0.0
+hn-n -C -N    4   10.000       180.000           2.000      same as X -c -n -X , penalty score=  0.0
+
+IMPROPER
+
+NONBON
+
+
+

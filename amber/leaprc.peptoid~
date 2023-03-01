@@ -1,0 +1,39 @@
+source leaprc.gaff2
+set default PBRadii mbondi2
+loadAmberParams /home/jre318/peptoid_residues/peptoid_substitutions.frcmod
+loadAmberParams /home/jre318/peptoid_residues/frcmod.nph
+LoadAmberPrep /home/jre318/peptoid_residues/317_capped.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/317.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/N2_6MPH.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/N3_5MPH.prepi
+#LoadAmberPrep /home/jre318/peptoid_residues/N4FPH.prepi #antechamber chokes on F
+LoadAmberPrep /home/jre318/peptoid_residues/NAE.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NAS.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NBP.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NCE.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NCH.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NCM.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NET.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NGL.prepi
+#LoadAmberPrep /home/jre318/peptoid_residues/NHE.prepi #conflicts with N-terminal amide residue NHE
+LoadAmberPrep /home/jre318/peptoid_residues/NLE.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NLEU.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NME.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NPH.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NPM.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NRCH.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NRPE.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NRSB.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NS1TBE.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NSCH.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NsMP.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NSPE.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NSSB.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NTBU.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/NVAL.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/QQ7.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/QQ8.prepi
+LoadAmberPrep /home/jre318/peptoid_residues/sar.prepi
+
+AddPdbAtomMap { { "CAN" "CN" } { "CAN" "C3" } { "CB" "C3" } }
+AddPdbResMap { { "NNB" "QQ8" } }
